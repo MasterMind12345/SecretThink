@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // Correction des chemins d'importation
+import SendToUser from './pages/SendToUser';
 import UserAuth from './components/UserAuth'; 
 import UserDashboard from './components/UserDashboard';
 import PWAInstallPrompt from './components/PWAInstallPrompt';
